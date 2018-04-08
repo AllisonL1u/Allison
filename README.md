@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Allison's Blog
 
 You can use the [editor on GitHub](https://github.com/AllisonL1u/AllisonLiu.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
