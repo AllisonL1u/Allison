@@ -4,7 +4,7 @@ You can use the [editor on GitHub](https://github.com/AllisonL1u/AllisonLiu.gith
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-[notes of Allison on GitHub](https://github.com/AllisonL1u/AllisonLiu.github.io/edit/master/notes.html) 
+[notes of Allison on GitHub](https://allisonl1u.github.io/Allisonliu.github.io/notes.html) 
 
 ### Markdown
 
