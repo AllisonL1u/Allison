@@ -36,9 +36,12 @@
             <p>Having finished 3 tests, but half of which have been negligated.</p>
             
             <h3 id="Monday">Day 1</h3>
-            <p>Coalescing data in table base_play from September to Octorber all day as C and J told me.</p>
+            <p>Coalescing data in table base_play from September to Octorber all day as C and J told me.
+               Set the smallfiles.avgsize as the integer times of the blocksize, e.g. 128MB or 256MB.
+            </p>
             <p><code class="highlighter-rouge">set hive.merge.mapredfiles=true;</code></p>
             <p><code class="highlighter-rouge">set hive.merge.smallfiles.avgsize=256000000;</code></p>
+            <p>Hive performs better than Spark. I haven't find the reason.</p>
 
         </div>
     </body>
