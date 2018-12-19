@@ -26,6 +26,8 @@ function loadData() {
         	result['nano_1'] = parseInt(result['aaa'])
         	result['nano_2'] = parseInt(result['aaa'])
         	result['nano_3'] = parseInt(result['aaa'])
+		result['nano_4'] = parseInt(result['aaa'])
+        	result['nano_5'] = parseInt(result['aaa'])
         	result['15_days_vip_free'] = parseInt(result['aaa'])
         	result['vip_purchase'] = parseInt(result['aaa'])
         	result['vip_gmv'] = parseInt(result['aaa'])
@@ -46,6 +48,10 @@ function loadData() {
 	$(".nano_2").css("font-size","small");
 	$(".nano_3").text(formatNum(999999999999));
 	$(".nano_3").css("font-size","small");
+	$(".nano_4").text(formatNum(999999999999));
+	$(".nano_4").css("font-size","small");
+	$(".nano_5").text(formatNum(999999999999));
+	$(".nano_5").css("font-size","small");
 	$(".15_days_vip_free").text(formatNum(999999999999));
 	$(".15_days_vip_free").css("font-size","small");
 	$(".vip_purchase").text(formatNum(999999999999));
