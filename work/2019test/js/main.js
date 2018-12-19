@@ -40,28 +40,28 @@ function loadData() {
         	}
         }
 	});
-	$(.nano_1).text(formatNum(999999999999));
-    $(.nano_1).css("font-size","small");
-    $(.nano_2).text(formatNum(999999999999));
-    $(.nano_2).css("font-size","small");
-    $(.nano_3).text(formatNum(999999999999));
-    $(.nano_3).css("font-size","small");
-    $(.15_days_vip_free).text(formatNum(999999999999));
-    $(.15_days_vip_free).css("font-size","small");
-    $(.vip_purchase).text(formatNum(999999999999));
-    $(.vip_purchase).css("font-size","small");
-    $(.vip_gmv).text(formatNum(999999999999));
-    $(.vip_gmv).css("font-size","small");
-    $(.album_purchase_gmv).text(formatNum(999999999999));
-    $(.album_purchase_gmv).css("font-size","small");
-    $(.kol_course_pv).text(formatNum(999999999999));
-    $(.kol_course_pv).css("font-size","small");
-    $(.kol_course_uv).text(formatNum(999999999999));
-    $(.kol_course_uv).css("font-size","small");
-    $(.lunch_pv).text(formatNum(999999999999));
-    $(.lunch_pv).css("font-size","small");
-    $(.lunch_uv).text(formatNum(999999999999));
-    $(.lunch_uv).css("font-size","small");
+	$(".nano_1").text(formatNum(999999999999));
+	$(".nano_1").css("font-size","small");
+	$(".nano_2").text(formatNum(999999999999));
+	$(".nano_2").css("font-size","small");
+	$(".nano_3").text(formatNum(999999999999));
+	$(".nano_3").css("font-size","small");
+	$(".15_days_vip_free").text(formatNum(999999999999));
+	$(".15_days_vip_free").css("font-size","small");
+	$(".vip_purchase").text(formatNum(999999999999));
+	$(".vip_purchase").css("font-size","small");
+	$(".vip_gmv").text(formatNum(999999999999));
+	$(".vip_gmv").css("font-size","small");
+	$(".album_purchase_gmv").text(formatNum(999999999999));
+	$(".album_purchase_gmv").css("font-size","small");
+	$(".kol_course_pv").text(formatNum(999999999999));
+	$(".kol_course_pv").css("font-size","small");
+	$(".kol_course_uv").text(formatNum(999999999999));
+	$(".kol_course_uv").css("font-size","small");
+	$(".lunch_pv").text(formatNum(999999999999));
+	$(".lunch_pv").css("font-size","small");
+	$(".lunch_uv").text(formatNum(999999999999));
+	$(".lunch_uv").css("font-size","small");
 }
 
 showCurrentTime();
