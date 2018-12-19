@@ -1,0 +1,49 @@
+html{
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+table{
+    text-align: center;
+    font-size: x-small;
+}
+body{
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    background:#13384f;
+    color:white
+}
+
+caption{
+    color:white;
+}
+
+#time{
+    color:white
+}
+.table-bordered{
+    margin-top:-15px
+}
+/*
+.row{
+    margin-top:-5px
+}
+*/
+
+h5{
+    margin-top:0px
+}
+
+.table-condensed>thead>tr>th, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>tbody>tr>td, .table-condensed>tfoot>tr>td {
+    padding: 2px;
+}
+td{
+    vertical-align: middle !important;
+}
+
+#note {
+    margin-top:-20px;
+    font-size:11px;
+    margin-bottom:20px;
+}
