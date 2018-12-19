@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/main.css?v=1.4">
 </head>
 <body>
+
+
 <div class="container">
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
@@ -17,129 +19,7 @@
             </h6>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-            <h5>今日数据:</h5>
-            <table class="table table-condensed">
-                <tr>
-                    <td>GMV:</td>
-                    <td class="gmv_total_amount"></td>
-                    <td>昨日同期:</td>
-                    <td class="gmv_total_yesterday"></td>
-                    <td class="gmv_total_rate"></td>
-                </tr>
-                <tr>
-                    <td>喜点:</td>
-                    <td class="gmv_total_xidian"></td>
-                    <td>昨日同期:</td>
-                    <td class="gmv_total_xidian_yesterday"></td>
-                    <td class="gmv_total_xidian_rate"></td>
-                </tr>
-                <tr>
-                    <td>喜钻/10:</td>
-                    <td class='gmv_xizuan_amount'></td>
-                    <td>昨日同期:</td>
-                    <td class ='gmv_xizuan_yesterday'></td>
-                    <td class='gmv_xizuan_rate'></td>
-                </tr>
-                <tr>
-                    <td>充值金额:</td>
-                    <td class="gmv_recharge"></td>
-                    <td>昨日同期:</td>
-                    <td class="gmv_recharge_yesterday"></td>
-                    <td class="gmv_recharge_rate"></td>
-                </tr>
-            </table>
-	    
-	    <p class="text-right initialism"  id="note"><em class="text-muted">*GMV、充值：包含专辑/会员业务产生的订单</em></p>
-	    
-            <!-- Table -->
-            <table class="table table-bordered table-responsive table-condensed detailTable">
-                <caption>
-                    今日数据总览：
-                </caption>
-                <thead>
-                <tr>
-                    <th colspan="2" width="25%"></th>
-                    <th>GMV</th>
-                    <th>喜点</th>
-                    <th width="20%">订单量</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td rowspan="2">专辑</td>
-                    <td>今日:</td>
-                    <td class="gmv_album_amount"></td>
-                    <td class="gmv_album_xidian"></td>
-                    <td rowspan="2" class="gmv_album_num"></td>
-                </tr>
-                <tr>
-                    <td>昨日同期:</td>
-                    <td><span class="gmv_album_yesterday"></span><br/><span class="gmv_album_rate"></span></td>
-                    <td><span class="gmv_album_xidian_yesterday"></span><br/><span class="gmv_album_xidian_rate"></span>
-                    </td>
-                </tr>
-                <tr>
-                    <td rowspan="2">兑换码</td>
-                    <td>今日:</td>
-                    <td class="gmv_redeem_amount"></td>
-                    <td class="gmv_redeem_xidian"></td>
-                    <td rowspan="2" class="gmv_redeem_num"></td>
-                </tr>
-                <tr>
-                    <td>昨日同期:</td>
-                    <td><span class="gmv_redeem_yesterday"></span><br/><span class="gmv_redeem_rate"></span></td>
-                    <td><span class="gmv_redeem_xidian_yesterday"></span><br/><span class="gmv_redeem_rate"></span></td>
-                </tr>
-                <tr>
-                    <td rowspan="2">会员</td>
-                    <td>今日:</td>
-                    <td class="gmv_vip_amount" colspan="2"></td>
-                    <td rowspan="2" class="gmv_vip_num"></td>
-                </tr>
-                <tr>
-                    <td>昨日同期:</td>
-                    <td colspan="2"><span class="gmv_vip_yesterday"></span><br/><span class="gmv_vip_rate"></span></td>
-                </tr>
-                <tr>
-                    <td rowspan='2'>直播</td>
-                    <td>今日:</td>
-                    <td class='gmv_xizuan_amount' colspan='2'></td>
-                    <td rowspan='2' class='gmv_xizuan_num'></td>
-                </tr>
-                <tr>
-                    <td>昨日同期:</td>
-                    <td colspan='2'><span class='gmv_xizuan_yesterday'></span><br/><span class='gmv_xizuan_rate'></span></td>
-                </tr>
-                <tr>
-                    <td rowspan="2">净余喜点</td>
-                    <td>今日:</td>
-                    <td class="gmv_recharge_remain_amount" colspan="2"></td>
-                    <td rowspan="2"></td>
-                </tr>
-                <tr>
-                    <td>昨日同期:</td>
-                    <td colspan="2"><span class="gmv_recharge_remain_yesterday"></span><br/><span
-                            class="gmv_recharge_remain_rate"></span></td>
-                </tr>
-                <tr>
-                    <td rowspan="2">Total</td>
-                    <td>今日:</td>
-                    <td class="gmv_total_amount"></td>
-                    <td class="gmv_total_xidian"></td>
-                    <td rowspan="2"></td>
-                </tr>
-                <tr>
-                    <td>昨日同期:</td>
-                    <td><span class="gmv_total_yesterday"></span><br/><span class="gmv_total_rate"></span></td>
-                    <td><span class="gmv_total_xidian_yesterday"></span><br/><span class="gmv_total_xidian_rate"></span>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
+
 
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
@@ -150,11 +30,11 @@
                     <td class="nano_1"></td>
                 </tr>
                 <tr>
-                    <td>会员+小雅nano购买台数(尾款):</td>
+                    <td>会员+小雅nano购买台数（尾款）:</td>
                     <td class="nano_2"></td>
                 </tr>
                 <tr>
-                    <td>会员+小雅nano购买台数(期货):</td>
+                    <td>会员+小雅nano购买台数（期货）:</td>
                     <td class="nano_3"></td>
                 </tr>
                 <tr>
@@ -162,153 +42,38 @@
                     <td class='15_days_vip_free'></td>
                 </tr>
                 <tr>
-                    <td>VIP会员买一年送一年(人数):</td>
+                    <td>VIP会员买一年送一年（人数）:</td>
                     <td class='vip_purchase'></td>
                 </tr>
                 <tr>
-                    <td>VIP会员买一年送一年(GMV):</td>
+                    <td>VIP会员买一年送一年（GMV）:</td>
                     <td class='vip_gmv'></td>
                 </tr>
                 <tr>
                     <td>活动期间购买付费专辑GMV:</td>
-                    <td class="purchase_gmv"></td>
+                    <td class="album_purchase_gmv"></td>
                 </tr>
                 <tr>
-                    <td>大咖好课-免费抢专辑(订单数):</td>
+                    <td>大咖好课-免费抢专辑（订单数）:</td>
                     <td class="kol_course_pv"></td>
                 </tr>
                 <tr>
-                    <td>大咖好课-免费抢专辑(用户数):</td>
+                    <td>大咖好课-免费抢专辑（用户数）:</td>
                     <td class="kol_course_uv"></td>
                 </tr>
                 <tr>
-                    <td>思想午餐(订单数):</td>
+                    <td>思想午餐（订单数）:</td>
                     <td class="lunch_pv"></td>
                 </tr>
                 <tr>
-                    <td>思想午餐(用户数):</td>
+                    <td>思想午餐（用户数）:</td>
                     <td class="lunch_uv"></td>
                 </tr>
             </table>
 
-
-            <!-- Table -->
-            <table class="table table-bordered table-responsive table-condensed detailTable">
-                <caption>
-                    昨日全天数据总览：
-                </caption>
-                <thead>
-                <tr>
-                    <th></th>
-                    <th>GMV</th>
-                    <th>喜点、喜钻/10</th>
-                    <th>订单量</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>专辑</td>
-                    <td class="yesterday_gmv_album_amount"></td>
-                    <td class="yesterday_gmv_album_xidian"></td>
-                    <td class="yesterday_gmv_album_num"></td>
-                </tr>
-                <tr>
-                    <td>兑换码</td>
-                    <td class="yesterday_gmv_redeem_amount"></td>
-                    <td class="yesterday_gmv_redeem_xidian"></td>
-                    <td class="yesterday_gmv_redeem_num"></td>
-                </tr>
-                <tr>
-                    <td>喜钻/10</td>
-                    <td class='yesterday_gmv_xizuan_amount'></td>
-                    <td class='yesterday_gmv_xizuan_amount'></td>
-                    <td class='yesterday_gmv_xizuan_num'></td>
-                </tr>
-                <tr>
-                    <td>会员（分成后）</td>
-                    <td class="yesterday_gmv_vip_amount"></td>
-                    <td class="yesterday_gmv_vip_amount"></td>
-                    <td class="yesterday_gmv_vip_num"></td>
-                </tr>
-                <tr>
-                    <td><b>Total</b></td>
-                    <td><b class="yesterday_gmv_total"></b></td>
-                    <td><b class="yesterday_gmv_total_xidian"></b></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>净余喜点</td>
-                    <td class="yesterday_gmv_recharge_remain_amount"></td>
-                    <td class="yesterday_gmv_recharge_remain_amount"></td>
-                    <td></td>
-                </tr>
-                </tbody>
-            </table>
-            <br/>
-
-            <!-- Table -->
-            <table class="table table-bordered table-responsive table-condensed vipdetailTable">
-                <caption>
-                会员细看：
-                </caption>
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th>GMV</th>
-                        <th>喜点</th>
-                        <th>订单量</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>独立售卖会员</td>
-                        <td class="yesterday_xima_vip_amount"></td>
-                        <td class="yesterday_xima_vip_amount"></td>
-                        <td class="yesterday_xima_vip_num"></td>
-                    </tr>
-                    <tr>
-                        <td>联合会员（分成前）</td>
-                        <td class="yesterday_joint_vip_amount"></td>
-                        <td class="yesterday_joint_vip_amount"></td>
-                        <td class="yesterday_joint_vip_num"></td>
-                    </tr>
-                    <tr>
-                        <td><b>独立+联合会员（分成前）</b></td>
-                        <td><b class="yesterday_xima_plus_joint_amount"></b></td>
-                        <td><b class="yesterday_xima_plus_joint_amount"></b></td>
-                        <td><b class="yesterday_xima_plus_joint_num"></b></td>
-                    </tr>
-                    <tr>
-                        <td>联合会员收入（分成后）</td>
-                        <td class="yesterday_joint_vip_profit"></td>
-                        <td class="yesterday_joint_vip_profit"></td>
-                        <td class="yesterday_joint_vip_num"></td>
-                    </tr>
-                    <tr>
-                        <td><b>独立+联合会员（分成后）</b></td>
-                        <td><b class="yesterday_xima_plus_joint_profit"></b></td>
-                        <td><b class="yesterday_xima_plus_joint_profit"></b></td>
-                        <td><b class="yesterday_xima_plus_joint_num"></b></td>
-                    </tr>
-                </tbody>
-            </table>
-            <br/>
-
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-            <h5>今日销量前三十(不含兑换码):</h5>
-            <table class="table table-condensed" id="album_sales">
-                <tr>
-                    <th class="text-center">排名</th>
-                    <th class="text-center">专辑名</th>
-                    <th class="text-center">销量(GMV)</th>
-                </tr>
-            </table>
-        </div>
-    </div>
 
 </div>
 <script src="js/jquery-3.2.1.min.js"></script>
@@ -316,3 +81,6 @@
 <script src="js/main.js?v=1.4"></script>
 </body>
 </html>
+
+
+
