@@ -23,51 +23,45 @@ function loadData() {
         type: "GET",
         dataType: 'JSON',
         success: function (result) {
-        	result['nano_1'] = parseInt(result['aaa'])
-        	result['nano_2'] = parseInt(result['aaa'])
-        	result['nano_3'] = parseInt(result['aaa'])
-		result['nano_4'] = parseInt(result['aaa'])
-        	result['nano_5'] = parseInt(result['aaa'])
-        	result['15_days_vip_free'] = parseInt(result['aaa'])
-        	result['vip_purchase'] = parseInt(result['aaa'])
-        	result['vip_gmv'] = parseInt(result['aaa'])
-        	result['album_purchase_gmv'] = parseInt(result['aaa'])
-        	result['kol_course_pv'] = parseInt(result['aaa'])
-        	result['kol_course_uv'] = parseInt(result['aaa'])
-        	result['lunch_pv'] = parseInt(result['aaa'])
-        	result['lunch_uv'] = parseInt(result['aaa'])
+            	result['final_nano_weikuan_white'] = parseInt(result['final_nano_weikuan_1_white'] ? result['final_nano_weikuan_1_white'] : 0) + parseInt(result['final_nano_weikuan_2_white'] ? result['final_nano_weikuan_2_white'] : 0);
+            	result['final_nano_weikuan_pink'] = parseInt(result['final_nano_weikuan_1_pink'] ? result['final_nano_weikuan_1_pink'] : 0) + parseInt(result['final_nano_weikuan_2_pink'] ? result['final_nano_weikuan_2_pink'] : 0);
+            	result['final_nano_weikuan_blue'] = parseInt(result['final_nano_weikuan_1_blue'] ? result['final_nano_weikuan_1_blue'] : 0) + parseInt(result['final_nano_weikuan_2_blue'] ? result['final_nano_weikuan_2_blue'] : 0);
+            	result['final_nano_weikuan_orange'] = parseInt(result['final_nano_weikuan_1_orange'] ? result['final_nano_weikuan_1_orange'] : 0) + parseInt(result['final_nano_weikuan_2_orange'] ? result['final_nano_weikuan_2_orange'] : 0);
+            	result['final_pre_nano_count_1'] = parseInt(result['final_nano_weikuan_1_orange'] ? result['final_nano_weikuan_1_orange'] : 0) + parseInt(result['final_nano_weikuan_1_blue'] ? result['final_nano_weikuan_1_blue'] : 0) + parseInt(result['final_nano_weikuan_1_pink'] ? result['final_nano_weikuan_1_pink'] : 0) + parseInt(result['final_nano_weikuan_1_white'] ? result['final_nano_weikuan_1_white'] : 0);
+            	result['final_pre_nano_count_2'] = parseInt(result['final_nano_weikuan_2_orange'] ? result['final_nano_weikuan_2_orange'] : 0) + parseInt(result['final_nano_weikuan_2_blue'] ? result['final_nano_weikuan_2_blue'] : 0) + parseInt(result['final_nano_weikuan_2_pink'] ? result['final_nano_weikuan_2_pink'] : 0) + parseInt(result['final_nano_weikuan_2_white'] ? result['final_nano_weikuan_2_white'] : 0);
+            	result['final_pre_nano_count'] = result['final_pre_nano_count_1'] + result['final_pre_nano_count_2'];
         	for (var key in result) {
         		$("." + key).text(formatNum(result[key]));
                 $("." + key).css("font-size","small");
         	}
         }
 	});
-	$(".nano_1").text(formatNum(999999999999));
-	$(".nano_1").css("font-size","small");
-	$(".nano_2").text(formatNum(999999999999));
-	$(".nano_2").css("font-size","small");
-	$(".nano_3").text(formatNum(999999999999));
-	$(".nano_3").css("font-size","small");
-	$(".nano_4").text(formatNum(999999999999));
-	$(".nano_4").css("font-size","small");
-	$(".nano_5").text(formatNum(999999999999));
-	$(".nano_5").css("font-size","small");
-	$(".15_days_vip_free").text(formatNum(999999999999));
-	$(".15_days_vip_free").css("font-size","small");
-	$(".vip_purchase").text(formatNum(999999999999));
-	$(".vip_purchase").css("font-size","small");
-	$(".vip_gmv").text(formatNum(999999999999));
-	$(".vip_gmv").css("font-size","small");
-	$(".album_purchase_gmv").text(formatNum(999999999999));
-	$(".album_purchase_gmv").css("font-size","small");
-	$(".kol_course_pv").text(formatNum(999999999999));
-	$(".kol_course_pv").css("font-size","small");
-	$(".kol_course_uv").text(formatNum(999999999999));
-	$(".kol_course_uv").css("font-size","small");
-	$(".lunch_pv").text(formatNum(999999999999));
-	$(".lunch_pv").css("font-size","small");
-	$(".lunch_uv").text(formatNum(999999999999));
-	$(".lunch_uv").css("font-size","small");
+// 	$(".nano_1").text(formatNum(999999999999));
+// 	$(".nano_1").css("font-size","small");
+// 	$(".nano_2").text(formatNum(999999999999));
+// 	$(".nano_2").css("font-size","small");
+// 	$(".nano_3").text(formatNum(999999999999));
+// 	$(".nano_3").css("font-size","small");
+// 	$(".nano_4").text(formatNum(999999999999));
+// 	$(".nano_4").css("font-size","small");
+// 	$(".nano_5").text(formatNum(999999999999));
+// 	$(".nano_5").css("font-size","small");
+// 	$(".15_days_vip_free").text(formatNum(999999999999));
+// 	$(".15_days_vip_free").css("font-size","small");
+// 	$(".vip_purchase").text(formatNum(999999999999));
+// 	$(".vip_purchase").css("font-size","small");
+// 	$(".vip_gmv").text(formatNum(999999999999));
+// 	$(".vip_gmv").css("font-size","small");
+// 	$(".album_purchase_gmv").text(formatNum(999999999999));
+// 	$(".album_purchase_gmv").css("font-size","small");
+// 	$(".kol_course_pv").text(formatNum(999999999999));
+// 	$(".kol_course_pv").css("font-size","small");
+// 	$(".kol_course_uv").text(formatNum(999999999999));
+// 	$(".kol_course_uv").css("font-size","small");
+// 	$(".lunch_pv").text(formatNum(999999999999));
+// 	$(".lunch_pv").css("font-size","small");
+// 	$(".lunch_uv").text(formatNum(999999999999));
+// 	$(".lunch_uv").css("font-size","small");
 }
 
 showCurrentTime();
