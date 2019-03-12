@@ -19,7 +19,7 @@ function showCurrentTime() {
 
 function loadData() {
 	$.ajax({
-		url: "http://cn.bing.com",
+		url: "https://cn.bing.com",
         type: "GET",
         dataType: 'JSON',
         success: function (result) {
